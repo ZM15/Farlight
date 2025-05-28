@@ -11,6 +11,8 @@ def fun(num):
         else:
             print("The entered number is not a happy one")
 
+    else:
+        print("You entered the wrong number.")
 if __name__ == "__main__":
     a = int(input("Enter a six-digit integer: "))
     fun(a)
