@@ -1,16 +1,16 @@
 def fun(num):
-    fir = num // 1000  # первые три числа
-    sec = num - fir * 1000  # вторые три числа
+    fir = num // 1000  # the first three numbers
+    sec = num - fir * 1000  # the second three numbers
 
     sum1 = (fir // 100) + ((fir // 10) % 10) + (fir % 10)
     sum2 = (sec // 100) + ((sec // 10) % 10) + (sec % 10)
 
     if 99999 < num < 1000000:
         if sum1 == sum2:
-            print("Введенное число - счастливое")
+            print("The entered number is a lucky number")
         else:
-            print("Введенное число не является счастливым")
+            print("The entered number is not a happy one")
 
 if __name__ == "__main__":
-    a = int(input("Введите целое шестизначное число: "))
+    a = int(input("Enter a six-digit integer: "))
     fun(a)
