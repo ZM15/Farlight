@@ -7,9 +7,9 @@ def fun(num):
 
     if 99999 < num < 1000000:
         if sum1 == sum2:
-            print("The entered number is a lucky number")
+            print("The entered number is a lucky number!!!")
         else:
-            print("The entered number is not a happy one")
+            print("The entered number is not a happy one. You'll definitely get lucky next time!!!")
 
     else:
         print("You entered the wrong number.")
